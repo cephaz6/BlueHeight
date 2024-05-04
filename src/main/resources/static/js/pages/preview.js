@@ -1,0 +1,1 @@
+$(document).ready((function(){gsap.to(".js-preview-image-animate--first",{duration:15,xPercent:"-100",repeat:-1,ease:"none"}),gsap.to(".js-preview-image-animate--second",{duration:20,xPercent:"100",repeat:-1,ease:"none"}),$(".js-page-card").hover((function(){$(this).addClass("active")}),(function(){$(this).removeClass("active")}))}));

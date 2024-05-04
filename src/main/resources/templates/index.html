@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html class="" lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="Layouts/head"></head>
+
+<body class="">
+<div th:replace="Layouts/header :: header"></div>
+<section class="home--v1">
+    <div class="header-bg header-bg--v1"></div>
+    <div class="home__title container" data-animation="slide-down">
+        <h1>A Revolutionary and Global API Marketplace</h1>
+        <p>
+            Curate and monetize your APIs in a central marketplace you build to simplify API adoption and get your latest
+            digital service to the market faster. It's all your APIs. Packaged and ready to go.
+        </p>
+        <div class="home__button">
+            <button class="btn btn--large btn--primary">start now</button>
+            <button class="btn btn--large btn--secondary-white">
+                trial
+                <div class="btn__icon"></div>
+            </button>
+        </div>
+    </div>
+
+</section>
+<section class="home--why-growtech">
+
+    <div class="home__content-why container">
+        <div class="home__content-why__details" data-animation="slide-right">
+            <div class="home__content-why__details__detail">
+                <div class="icon-large icon-large__box icon-large__box--g-blue">
+                    <img src="media/images/icons/layers.svg" alt="" />
+                </div>
+                <h4>Accurate Data Science</h4>
+                <p class="text-m-regular">
+                    Cum sociis natoque penatibus et magnis dis parturient
+                </p>
+            </div>
+            <div class="home__content-why__details__detail">
+                <div class="icon-large icon-large__box icon-large__box--g-blue">
+                    <img src="media/images/icons/pie-chart.svg" alt="" />
+                </div>
+                <h4>Report Automation</h4>
+                <p class="text-m-regular">
+                    Montes, nascetur ridiculus mus. Donec quam felis,
+                </p>
+            </div>
+        </div>
+        <div class="home__content-why__illustration" data-animation="fade-in">
+            <img src="media/images/illustration/illustration.svg" alt="" />
+        </div>
+        <div class="home__content-why__details" data-animation="slide-left">
+            <div class="home__content-why__details__detail">
+                <div class="icon-large icon-large__box icon-large__box--g-blue">
+                    <img src="media/images/icons/keypad.svg" alt="" />
+                </div>
+                <h4>Fully Integrations</h4>
+                <p class="text-m-regular">
+                    Cum sociis natoque penatibus et magnis dis parturient
+                </p>
+            </div>
+            <div class="home__content-why__details__detail">
+                <div class="icon-large icon-large__box icon-large__box--g-blue">
+                    <img src="media/images/icons/trending-up.svg" alt="" />
+                </div>
+                <h4>Advanced Analytics</h4>
+                <p class="text-m-regular">
+                    Montes, nascetur ridiculus mus. Donec quam felis,
+                </p>
+            </div>
+        </div>
+    </div>
+    <button class="home__btn btn btn--medium btn--primary">learn more</button>
+</section>
+<section class="cta cta--v1">
+    <div class="pattern"></div>
+    <div class="container container--cta-v1" data-animation="slide-up">
+        <h2 class="cta-title cta-title--v1">
+            Let's start growing your business
+        </h2>
+        <p class="cta-para cta-para--v1 text-l-regular">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam ut id
+            nisl tellus rhoncus, imperdiet
+        </p>
+        <div class="cta-btn-container cta-btn-container--v1">
+            <button class="btn btn--medium btn--primary">Register Now</button>
+            <button class="btn btn--medium btn--secondary-purple">
+                <p>Contact Us</p>
+            </button>
+        </div>
+    </div>
+</section>
+<div th:replace="Layouts/footer :: footer"></div>
+<div th:replace="Layouts/scripts"></div>
+</body>
+</html>
